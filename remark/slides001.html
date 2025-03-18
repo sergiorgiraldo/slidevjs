@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SLIDES 001</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+      .red{
+        color: #f00;
+      }
+      .blue{
+        color: #00f;
+      }
+      .green{
+        color: #0f0;
+      }
+      .orange{
+        color: orange;
+      }
+      .courier{
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+      .cover {
+        background: #dedbd2;
+        color: #4a5759;
+        text-shadow: 0 0 20px #333;
+      }
+      .cover h1{
+        font-weight: bolder;
+        letter-spacing: 3px;;
+      } 
+      .cover-subtitle {
+        position: absolute;
+        bottom: 3em;
+        right:15%;
+      }
+
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1{
+        font-size: 6em;
+        color: aqua;
+        text-align: center;
+      }
+
+      /* Two-column layout */
+      .left-column {
+        width: 45%;
+        float: left;
+      }
+      .right-column {
+        width: 45%;
+        float: left;
+        padding-top: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: cover
+# Remark, simple in-browser, markdown-driven slideshow
+
+.cover-subtitle[
+#### Sergio Rodrigues Giraldo
+#### Netherlands - 2024
+#### Markdown Summit]
+
+---
+
+# Introduction
+
+this is what i think to show you. I will dive into the *specifics* and the *general*
+
+---
+
+# Markdown
+
+Markdown is nice because it is **easy** and you can pinpoint exactly what is happening in the markdown.
+
+---
+
+# Fillers
+
+## Lorem
+
+Curabitur blandit tempus ardua ridiculus sed magna. Pellentesque habitant morbi tristique senectus et netus. Curabitur est gravida et libero vitae dictum.
+
+## Poe
+
+Once upon a midnight dreary, while I pondered, weak and weary. Over many aquaint and curious volume of forgotten lore. While I nodded, nearly napping.
+
+## Faust
+
+Ihr naht euch wieder, schwankende Gestalten! Die früh sich einst dem trüben. Blick gezeigt. Versuch’ ich wohl euch diesmal fest zu halten? Fühl’ ich mein.
+
+---
+
+# Image
+
+![Placeholder image](https://placehold.co/600x400/orange/white "Placeholder image")
+
+---
+
+# Css Classes
+
+.red[This comes with css class `red`]
+
+.green[This comes with css class `green`]
+
+.blue[This comes with css class `blue`]
+
+.orange[It can have .courier[nested] styles]
+
+---
+
+# Code !
+
+## Javascript
+
+```javascript
+function add(a, b)
+  return a + b
+end
+```
+
+## Ruby
+
+```ruby
+def add(a, b)
+  a + b
+end
+```
+
+---
+
+# Presentation mode
+
+- Press **C** for a cloned view
+- Then come back to the first window and press **P** for Presenter mode
+
+???
+
+## See your notes.
+
+Nec dubitamus multa iter quae et nos invenerat. Curabitur est gravida et libero vitae dictum. Curabitur blandit tempus ardua ridiculus sed magna. Nec dubitamus multa iter quae et nos invenerat.
+
+Quisque ut dolor gravida, placerat libero vel, euismod. Curabitur blandit tempus ardua ridiculus sed magna. Nec dubitamus multa iter quae et nos invenerat. Curabitur blandit tempus ardua ridiculus sed magna.
+
+Ullamco laboris nisi ut aliquid ex ea commodi consequat. Paullum deliquit, ponderibus modulisque suis ratio utitur. Phasellus laoreet lorem vel dolor tempus vehicula. Curabitur est gravida et libero vitae dictum.
+
+* these notes
+* are also
+* markdown
+
+---
+
+# Columns!
+
+.left-column[
+  Numbers are nice
+  
+  But People also!
+
+  Quo usque tandem abutere, Catilina, patientia nostra?
+]
+.right-column[
+
+## Famous people
+
+* John Doe
+* Jane Doe
+* Jill Doe
+* Jack Doe
+* Jim Doe
+* Julie Doe
+
+]
+
+---
+class: inverse
+
+# If you need to have some attention, have a css class
+
+---
+
+# The end
+
+
+
+    </textarea>
+    <script src="remark-202503.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
