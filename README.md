@@ -2,11 +2,15 @@
 
 ## Winner
 
-**Remark it is the winner**. Markdown is easier to write than html where i need to write the tags and such.
+**Marp it is the winner**. Markdown is easier to write than html where i need to write the tags and such.
 
 I can still use CSS if i want to. And the feature set is just enough for a quick and dirty presentation.
 
 Slidev is really impressive in capabilities but for me this type of tool is about convenience and simplicity. If i need something fancy I will use powerpoint lol.
+
+## MARP
+
+Write Markdown and export to PDF
 
 ## Higgins
 
