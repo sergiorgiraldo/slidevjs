@@ -1,11 +1,11 @@
 ---
 marp: true
-theme: uncover
+theme: gaia
 footer: "Sergio Giraldo - Utrecht - 2025"
 
 ---
 
-# COVER uncover theme
+# COVER gaia theme
 
 **I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach**
 
